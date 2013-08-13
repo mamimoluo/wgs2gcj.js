@@ -1,4 +1,4 @@
-WG2CHINA = function(lat, lon){
+WG2GCJ = function(lat, lon){
   //
   // Krasovsky 1940
   //
@@ -64,6 +64,5 @@ WG2CHINA = function(lat, lon){
   lat = Number(lat);
   lon = Number(lon);
   var z = this.transform(lat, lon);
-  return [z[0], z[1]];
-
+  return {'latitude': z[0], 'longitude': z[1]};
 };
