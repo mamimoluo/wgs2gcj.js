@@ -1,4 +1,4 @@
-WG2GCJ = function(lat, lon){
+WGS2GCJ = function(lat, lon){
   //
   // Krasovsky 1940
   //
